@@ -10,9 +10,70 @@
   font-style: normal;
 }
 
-body {
-  background-image: url("../images/sinners.jpg");
+.education-box p {
+  margin: 10px;
 }
+.comment {
+  color: rgb(0 0 0 / 0.5);
+  font-size: 0.875rem;
+}
+
+.institution {
+  color: blue;
+  font-weight: bold;
+  font-size: 1.125rem;
+  margin: 0px 0px 0px 0px;
+}
+
+.certificate-box {
+  display: block;
+  height: 100px;
+}
+
+.cert-image {
+  height: 90px;
+  width: 90px;
+  float: left;
+  margin: 0px 20px 0px 0px;
+
+}
+
+/*
+  Had to use some help from ai for the following image structure.
+  Would love to know how to implement it in a better way.
+  Looks nice in ultrawide monitors.
+*/
+body.homepage {
+  background: #fff;
+}
+
+body.homepage::before,
+body.homepage::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: calc((100% - 1080px) / 2);
+
+  background-image: url("../images/sinners.jpg");
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+
+  z-index: -1;
+}
+
+body.homepage::before {
+  left: 0;
+  background-position: right top;
+}
+
+body.homepage::after {
+  right: 0;
+  background-position: left top;
+}
+/*
+  Ends here.
+*/
 
 main {
   background-color: white;
@@ -69,6 +130,7 @@ nav#main-nav ul li a {
 }
 
 main div#cats {
+  font-size: 1.25rem;
   display: block;
   width: 1080px;
   overflow: hidden;
@@ -95,6 +157,7 @@ main div#sinners-reference p {
   padding: 20px;
   margin: 0 auto;
   text-align: center;
+  font-size: 1.25rem;
   vertical-align: center;
 }
 
