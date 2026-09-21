@@ -10,29 +10,49 @@
   font-style: normal;
 }
 
-.nav-container {
-  width: 690px;
+body {
+  background-image: url("../images/sinners.jpg");
+}
+
+main {
+  background-color: white;
+  padding: 0 100px;
+  width: 1080px;
   margin: 0 auto;
   overflow: hidden;
 }
 
-#main-content {
+footer {
+  display: block;
+  background-color: blue;
+  color: #fff;
+  text-align: center;
   width: 1080px;
   margin: 0 auto;
-  ovserflow: hidden;
+  padding: 2px 100px;
+}
+
+#main-nav {
+  display: block;
+  background-color: black;
+}
+
+nav#main-nav div.container {
+  width: 690px;
+  margin: 0 auto;
 }
 
 nav#main-nav ul {
   list-style-type: none;
   padding: 0;
-  margin: 0 auto;
+  margin: 24px 0px;
   display: inline-block;
   vertical-align: top;
 }
 
 nav#main-nav ul li {
   float: left;
-  margin: 0 15px;
+  margin: 0px 12px;
 }
 
 nav#main-nav ul li a {
@@ -47,4 +67,40 @@ nav#main-nav ul li a {
   border-radius: 4px;
 }
 
+main div#cats {
+  display: block;
+  width: 1080px;
+  overflow: hidden;
+}
 
+main div#cats div.container {
+  display: block;
+  float: left;
+  width: 360px;
+  height: auto;
+  overflow: hidden;
+}
+
+
+main div#sinners-reference {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+main div#sinners-reference p {
+  display: block;
+  width: 75%;
+  padding: 20px;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: center;
+}
+
+main div#sinners-reference iframe.youtube {
+  display: block;
+  width: 100%;
+  margin: 0px auto 20px auto;
+  aspect-ratio: 16 / 9;
+  height: auto;
+}
