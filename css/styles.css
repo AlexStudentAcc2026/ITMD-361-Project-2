@@ -29,7 +29,6 @@ footer {
   text-align: center;
   width: 1080px;
   margin: 0 auto;
-<<<<<<< HEAD
   padding: 2px 100px;
 }
 
@@ -41,9 +40,7 @@ footer {
 nav#main-nav div.container {
   width: 690px;
   margin: 0 auto;
-=======
   overflow: hidden;
->>>>>>> 28ad6bc7e90161aee4f6f31c1f09c9510c72cb3c
 }
 
 nav#main-nav ul {
