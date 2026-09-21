@@ -1,5 +1,50 @@
-.sinners-reference {
+.gidole-regular {
+  font-family: "Gidole", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.new-rocker-regular {
   font-family: "New Rocker", system-ui;
   font-weight: 400;
   font-style: normal;
 }
+
+.nav-container {
+  width: 690px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#main-content {
+  width: 1080px;
+  margin: 0 auto;
+  ovserflow: hidden;
+}
+
+nav#main-nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  display: inline-block;
+  vertical-align: top;
+}
+
+nav#main-nav ul li {
+  float: left;
+  margin: 0 15px;
+}
+
+nav#main-nav ul li a {
+  display: block;
+  background-color: blue;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  width: 200px;
+  padding: 10px 0px 8px 0px;
+  border-radius: 4px;
+}
+
+
